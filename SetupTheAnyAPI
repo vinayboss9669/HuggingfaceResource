@@ -1,0 +1,10 @@
+1) !import torch
+"GPU " if torch.cuda.is_available() else "CPU "
+
+2) !git clone https://huggingface.co/spaces/innoai/Edge-TTS-Text-to-Speech
+
+3) !pip install -r requirements.txt -q
+
+4) !pip install --upgrade google-genai google-adk yfinance dataproc-spark-connect
+
+5)!python app.py
